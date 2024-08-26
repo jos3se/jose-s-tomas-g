@@ -3,7 +3,7 @@ from producto import Productos
 from venta import Ventas
 print("--- ------------------------------------------------------------")
 print("OPCIONES: ventas , proveedor, productos")
-print("---------------------------------------------------------------")
+print("----------------------------------------------------------------")
 eleccion = str(input("¿En que tabla queres trabajar? res: "))
 match(eleccion):
     case "proveedor":
