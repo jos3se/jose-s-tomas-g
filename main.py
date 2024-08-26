@@ -1,7 +1,7 @@
 from proveedor import Proveedor
 from producto import Productos
 from venta import Ventas
-print("---------------------------------------------------------------")
+print("--- ------------------------------------------------------------")
 print("OPCIONES: ventas , proveedor, productos")
 print("---------------------------------------------------------------")
 eleccion = str(input("¿En que tabla queres trabajar? res: "))

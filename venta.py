@@ -16,7 +16,7 @@ class Ventas:
         conexion.commit()
         conexion.close()
     def leerVentas(self):
-        ventas = cursor.execute("SELECT * FROM ventas ")
+        ventas = cursor.execute("SELECT * FROM ventas")
         resultado =ventas.fetchall()
         for item in resultado:
             print(item)
